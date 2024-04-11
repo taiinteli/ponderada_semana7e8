@@ -1,7 +1,6 @@
 # Funcionalidades e Tecnologias Utilizadas
 
-Vídeo de funcionamento: https://drive.google.com/file/d/1dvk8MuVmwpzIpIS1RmTer5a-Jq3SKqVW/view?usp=drive_link
-
+![alt text](image.png)
 - MQTT: Ambos os scripts utilizam o protocolo MQTT (Message Queuing Telemetry Transport), um protocolo de mensageria leve e eficiente, ideal para comunicação em dispositivos limitados ou redes com largura de banda restrita. Isso é indicado pelo uso do pacote github.com/eclipse/paho.mqtt.golang.
 
 - Variáveis de Ambiente: O carregamento de configurações através de um arquivo .env é feito usando o pacote github.com/joho/godotenv, sugerindo a importância de definir variáveis como o endereço do broker MQTT e possivelmente credenciais ou tópicos específicos para publicação e subscrição.
