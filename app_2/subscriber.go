@@ -1,11 +1,12 @@
 package main
 
 import (
-	"fmt"
-	"os"
-	godotenv "github.com/joho/godotenv"
-	"github.com/confluentinc/confluent-kafka-go/kafka"
+    "fmt"
+    "os"
+    "github.com/joho/godotenv"
+    "github.com/confluentinc/confluent-kafka-go/kafka"
 )
+
 
 func consumeMessages(consumer *kafka.Consumer, topic string) {
 	consumer.SubscribeTopics([]string{topic}, nil)
